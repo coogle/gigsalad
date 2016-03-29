@@ -1,17 +1,16 @@
 {
-  "name" : "coogle/skeleton",
-  "description" : "Skeleton Application",
-  "require" : {
-  },
-  "keywords" : [ "framework", "zf2", "skeleton" ],
+  "name" : "coogle/gigsalad",
+  "description" : "Gigsalad Demo App",
   "license" : "BSD-3-Clause",
-    "authors" : [
-    	{
-    		"name" : "John Coggeshall",
-    		"email" : "john@coggeshall.org",
-    		"homepage" : "http://www.coggeshall.org/",
-    		"role" : "Developer"
-    	}
-    ],
-  "homepage" : "http://github.com/coogle/"
+  "keywords" : [ ],
+  "authors" : [ {
+    "name" : "John Coggeshall",
+    "email" : "john@coggeshall.org",
+    "homepage" : "http://www.coggeshall.org/",
+    "role" : "Developer"
+  } ],
+  "homepage" : "http://github.com/coogle/",
+  "require": {
+    "codeigniter/framework": "^3.0"
+  }
 }
