@@ -22,7 +22,6 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.js"></script>
         <script src="//code.angularjs.org/1.5.3/angular-resource.js"></script>
-        <script src="//code.angularjs.org/1.5.3/angular-animate.js"></script>
         <script src="//code.angularjs.org/1.5.3/angular-cookies.js"></script>
         <script src="/js/angular-spinners.js"></script>
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
@@ -70,7 +69,7 @@
                                 <h4>{{ performer.act_name }}</h4>
                                 <p class="text-muted">{{ performer.category_name }}</p>
                             </div>
-                            <img class="card-img-top cropped-card-img" src="{{ performer.thumbnail.url }}" alt="{{ performer.act_name }}">
+                            <img class="card-img-top cropped-card-img" src="{{ performer.thumbnail.url  }}" alt="{{ performer.act_name }}">
                             <div class="card-block">
                                 <p>They are one of the best {{ performer.category_name }} performers available for booking today!</p>
                             </div>

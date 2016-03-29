@@ -51,5 +51,4 @@ gigsaladDemoAppCtrls.controller('PerformerListCtrl', ['$scope', '$cookies', 'Per
 		$scope.refreshPerformers($scope.start, $scope.length);	
 	}
 
-
 }]);
